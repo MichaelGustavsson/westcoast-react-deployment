@@ -35,7 +35,7 @@ function App() {
           <Route path='/list' element={<VehicleList />} />
           <Route path='/add' element={<AddVehicle />} />
           <Route path='/edit/:id' element={<EditVehicle />} />
-          <Route path='/login' element={<Login />} />
+          {/* <Route path='/login' element={<Login />} /> */}
         </Routes>
       </main>
     </Router>
